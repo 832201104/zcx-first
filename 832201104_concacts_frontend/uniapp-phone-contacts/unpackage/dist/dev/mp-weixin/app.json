@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/contact/list/list",
+    "pages/contact/add/add",
+    "pages/contact/edit/edit",
+    "pages/contact/edit/info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "通讯录",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

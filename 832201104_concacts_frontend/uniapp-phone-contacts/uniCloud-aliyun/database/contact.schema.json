@@ -1,0 +1,42 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"title": "姓名",
+			"description": "姓名，不能为空",
+			"trim": "both"
+		},
+		"job": {
+			"bsonType": "string",
+			"title": "工作",
+			"description": "工作",
+			"trim": "both"
+		},
+		"mobile": {
+			"bsonType": "string",
+			"title": "手机号码",
+			"description": "手机号码",
+			"pattern": "^1[3456789]\\d{9}$",
+			"trim": "both"
+		},
+		"email": {
+			"bsonType": "string",
+			"format": "email",
+			"title": "电子邮箱",
+			"description": "电子邮箱",
+			"trim": "both"
+		}
+	}
+}
